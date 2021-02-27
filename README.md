@@ -8,6 +8,10 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
     ASCII
   </details>
   <details>
+    <summary>Line 12</summary>
+    overflow
+  </details>
+  <details>
     <summary>Line 20</summary>
     autobox cache
   </details>
