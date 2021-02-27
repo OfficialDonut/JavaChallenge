@@ -41,15 +41,15 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
   </details>
   <details>
     <summary>Line 48</summary>
-    postfix increment
-  </details>
-  <details>
-    <summary>Line 63</summary>
     integers
   </details>
   <details>
-    <summary>Line 73</summary>
+    <summary>Line 63</summary>
     dynamic binding
+  </details>
+  <details>
+    <summary>Line 73</summary>
+    implicit
   </details>
   <details>
     <summary>Line 86</summary>
