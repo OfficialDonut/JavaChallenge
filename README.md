@@ -1,4 +1,4 @@
-# JavaPerplexity
+# Java Challenge
 This is a deceptive program I contrived that incorporates many of the pitfalls and subtle details of the Java programming language. Can you avoid stepping on the numerous logical landmines scattered throughout the program and correctly determine its output?
 
 <details>
@@ -66,7 +66,7 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
 import java.util.ArrayList;
 import java.util.List;
 
-public class Perplexity {
+public class Challenge {
 
     public static void main(String[] args) {
         A a = new B(2);
