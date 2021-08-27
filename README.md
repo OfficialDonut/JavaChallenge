@@ -5,59 +5,59 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
   <summary>Hints</summary>
   <details>
     <summary>Line 11</summary>
-    ASCII
+    Character ASCII codes
   </details>
   <details>
     <summary>Line 12</summary>
-    overflow
+    Byte can overflow
   </details>
   <details>
     <summary>Line 20</summary>
-    autobox cache
+    Autoboxed numbers are cached
   </details>
   <details>
     <summary>Line 21</summary>
-    indentation
+    If/else indentation is meaningless
   </details>
   <details>
     <summary>Line 25</summary>
-    immutability
+    Strings are immutable
   </details>
   <details>
     <summary>Line 27</summary>
-    regex
+    Split uses regex
   </details>
   <details>
     <summary>Line 29</summary>
-    fall through
+    Switch cases fall through
   </details>
   <details>
     <summary>Line 36</summary>
-    postfix increment
+    Postfix increment happens before assignment
   </details>
   <details>
     <summary>Line 37</summary>
-    short circuit
+    Condition short circuits
   </details>
   <details>
     <summary>Line 45</summary>
-    overloading
+    Remove index method is called
   </details>
   <details>
     <summary>Line 51</summary>
-    integers
+    Integer division
   </details>
   <details>
     <summary>Line 66</summary>
-    dynamic binding
+    If `this` is of type B then B's bar method is called
   </details>
   <details>
     <summary>Line 76</summary>
-    implicit
+    Implicit superclass constructor
   </details>
   <details>
     <summary>Line 89</summary>
-    signature
+    Method signature does not match Object's equals
   </details>
 </details>
 
