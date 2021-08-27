@@ -36,23 +36,27 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
     postfix increment
   </details>
   <details>
-    <summary>Line 42</summary>
+    <summary>Line 37</summary>
+    short circuit
+  </details>
+  <details>
+    <summary>Line 45</summary>
     overloading
   </details>
   <details>
-    <summary>Line 48</summary>
+    <summary>Line 51</summary>
     integers
   </details>
   <details>
-    <summary>Line 63</summary>
+    <summary>Line 66</summary>
     dynamic binding
   </details>
   <details>
-    <summary>Line 73</summary>
+    <summary>Line 76</summary>
     implicit
   </details>
   <details>
-    <summary>Line 86</summary>
+    <summary>Line 89</summary>
     signature
   </details>
 </details>
@@ -66,7 +70,7 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
 import java.util.ArrayList;
 import java.util.List;
 
-public class Challenge {
+public class Perplexity {
 
     public static void main(String[] args) {
         A a = new B(2);
@@ -99,6 +103,9 @@ public class Challenge {
 
         for (int i = len; i > 0; i--) {
             result = result++;
+            if (i <= 0 && ++result >= 0) {
+                break;
+            }
         }
 
         List<Integer> l1 = new ArrayList<>();
