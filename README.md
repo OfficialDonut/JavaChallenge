@@ -70,7 +70,7 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
 import java.util.ArrayList;
 import java.util.List;
 
-public class Perplexity {
+public class Challenge {
 
     public static void main(String[] args) {
         A a = new B(2);
