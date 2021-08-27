@@ -33,11 +33,11 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
   </details>
   <details>
     <summary>Line 36</summary>
-    Postfix increment happens before assignment
+    Assignment to original value happens after postfix increment
   </details>
   <details>
     <summary>Line 37</summary>
-    Condition short circuits
+    The condition short circuits
   </details>
   <details>
     <summary>Line 45</summary>
