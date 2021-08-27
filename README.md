@@ -13,7 +13,7 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
   </details>
   <details>
     <summary>Line 20</summary>
-    Autoboxed numbers are cached
+    Small autoboxed numbers are cached
   </details>
   <details>
     <summary>Line 21</summary>
@@ -37,7 +37,7 @@ This is a deceptive program I contrived that incorporates many of the pitfalls a
   </details>
   <details>
     <summary>Line 37</summary>
-    The condition short circuits
+    The condition always short circuits
   </details>
   <details>
     <summary>Line 45</summary>
