@@ -34,6 +34,9 @@ public class Perplexity {
 
         for (int i = len; i > 0; i--) {
             result = result++;
+            if (i <= 0 && ++result >= 0) {
+                break;
+            }
         }
 
         List<Integer> l1 = new ArrayList<>();
